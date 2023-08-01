@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
@@ -18,14 +18,16 @@ const Home = () => {
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.
         </p>
-        <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+
+        {/* needs work down here for creating a scroll button to a section */}
+        {/* <div>
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600' >
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
